@@ -40,3 +40,5 @@ app.listen(PORT, async () => {
   await connectToDatabase();
   await createSchema();
 });
+
+export default app;
